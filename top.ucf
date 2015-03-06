@@ -1,0 +1,58 @@
+
+# PlanAhead Generated physical constraints 
+NET clock      LOC = B8;
+
+NET digit[3]   LOC = F12;
+NET digit[2]   LOC = J12;
+NET digit[1]   LOC = M13;
+NET digit[0]   LOC = K14;
+
+NET segment[7] LOC = N13;
+NET segment[6] LOC = M12;
+NET segment[5] LOC = L13;
+NET segment[4] LOC = P12;
+NET segment[3] LOC = N11;
+NET segment[2] LOC = N14;
+NET segment[1] LOC = H12;
+NET segment[0] LOC = L14;
+
+NET led[7]     LOC = G1;
+NET led[6]     LOC = P4;
+NET led[5]     LOC = N4;
+NET led[4]     LOC = N5;
+NET led[3]     LOC = P6;
+NET led[2]     LOC = P7;
+NET led[1]     LOC = M11;
+NET led[0]     LOC = M5;
+
+NET switch[7]  LOC = N3;
+NET switch[6]  LOC = E2;
+NET switch[5]  LOC = F3;
+NET switch[4]  LOC = G3;
+NET switch[3]  LOC = B4;
+NET switch[2]  LOC = K3;
+NET switch[1]  LOC = L3;
+NET switch[0]  LOC = P11;
+
+NET button[3]  LOC = A7;
+NET button[2]  LOC = M4;
+NET button[1]  LOC = C11;
+#NET button[0]  LOC = G12;
+
+# Panel wiring (panel PCB nomenclature).
+NET clk  LOC = C12;
+NET oe   LOC = A13;
+NET stb  LOC = C13;
+NET a    LOC = A9;
+NET b    LOC = B9;
+NET c    LOC = A10;
+NET d    LOC = C9;
+NET r1   LOC = B2;
+NET g1   LOC = A3;
+NET b1   LOC = J3;
+NET r2   LOC = C6;
+NET g2   LOC = B6;
+NET b2   LOC = C5;
+
+NET write_button LOC = G12;
+NET write_button CLOCK_DEDICATED_ROUTE = FALSE;
