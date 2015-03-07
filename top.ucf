@@ -37,7 +37,7 @@ NET switch[0]  LOC = P11;
 NET button[3]  LOC = A7;
 NET button[2]  LOC = M4;
 NET button[1]  LOC = C11;
-#NET button[0]  LOC = G12;
+NET button[0]  LOC = G12;
 
 # Panel wiring (panel PCB nomenclature).
 NET clk  LOC = C12;
@@ -54,5 +54,6 @@ NET r2   LOC = C6;
 NET g2   LOC = B6;
 NET b2   LOC = C5;
 
-NET write_button LOC = G12;
-NET write_button CLOCK_DEDICATED_ROUTE = FALSE;
+# UART
+NET rx   LOC = B5;
+NET tx   LOC = B7;

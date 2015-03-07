@@ -59,6 +59,7 @@ assign rx_data[7:0] = buffer[8:1];
 always @(posedge clock) begin
     if(rx == START && ~receiving) begin
         receiving <= 1;
+        rx_ready <= 0;
         end
     if(receiving) begin
         counter <= counter + 1;
